@@ -42,6 +42,11 @@ public class Dot {
         this.status = status;
     }
 
+    @Override
+    public String toString() {
+        return x + ":" + y + ":" + status;
+    }
+
     public void setXY(int x, int y) {
         this.x = x;
         this.y = y;
